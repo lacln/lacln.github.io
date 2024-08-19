@@ -3,6 +3,8 @@ body {
     background-color: rgb(17, 17, 17);
 }
 
+
+/* HEADER STYLES -- BOTH NORMAL AND BLACK AND WHITE */
 .topNavBar {
     overflow: hidden;
     position: relative;
@@ -10,6 +12,16 @@ body {
     border-left: 10px;
     border-right: 10px;
     width: 100%;
+}
+
+.topNavBar a {
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    color: rgb(21, 241, 247);
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    float: left;
 }
 
 a.headerMainLogo {
@@ -26,4 +38,6 @@ hr.blueLine {
     border-style: solid;
     border-width: 2px;
     width: 100%;
-  }
+}
+
+/* END */

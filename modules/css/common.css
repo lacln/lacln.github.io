@@ -1,4 +1,29 @@
 body {
-    /* font-family: "Kanit", sans-serif; font-weight: 400; font-style: normal; size: 24px; */
     font-family: 'Lato','Raleway','Source Sans Pro', sans-serif;
+    background-color: rgb(17, 17, 17);
 }
+
+.topNavBar {
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(17, 17, 17);
+    border-left: 10px;
+    border-right: 10px;
+    width: 100%;
+}
+
+a.headerMainLogo {
+    padding: 9px 18px;
+    margin-left: 10px;
+    padding-bottom: 0;
+}
+
+hr.blueLine { 
+    margin: 0;
+    color: rgb(21, 241, 247);
+    display: block;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+  }
